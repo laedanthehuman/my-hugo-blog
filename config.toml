@@ -1,0 +1,46 @@
+baseurl = "http://laedanthehuman.github.io/"
+theme = "hugo-geo"
+relativeURLs = false
+languageCode = "pt"
+title = "Rapa Dev"
+disqusShortname = "laedanthehuman"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutoriais"
+
+[params]
+	showglobe = false
+
+	favicon = "favicon.ico"
+
+	analytics = "UA-81918828-2"
+
+	email = "manoel.josefneto@gmail.com"
+
+	profilepic = "img/profile.jpg"
+
+	title = "Laedan"
+	subtitle = "The Human"
+
+	# Social buttons for sidebar
+  # Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/laedanthehuman"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/laedanthehuman"
+
+	[[params.navlinks]]
+	name = "Sobre"
+	url = "about"
+
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+
+	[[params.navlinks]]
+	name = "Tutoriais"
+	url = "tutorial/"
